@@ -1,26 +1,68 @@
 import React from 'react';
-import logo from './jonathanmontoya.JPG';
+import Home from './Pages/Home';
+import About from'./Pages/About';
+import Projects from './Pages/Projects';
+import Contact from './Pages/Contact';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My name is Jonathan Montoya and I'm going to master React!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/jontrader"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Me Out!
-        </a>
-      </header>
+
+export default function App() 
+{
+    return (
+
+    <div>
+
+        <Router>
+            <div>
+                <nav>
+                    <ul>
+                        <li>
+                            <Link to="/">Home</Link>
+                        </li>
+                        <li>
+                            <Link to="/about">About</Link>
+                        </li>
+                        <li>
+                            <Link to="/projects">Projects</Link>
+                        </li>
+                        <li>
+                            <Link to="/contact">Contact</Link>
+                        </li>
+                    </ul>
+                </nav>
+
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+
+                <Switch>
+                    <Route path="/contact">
+                        <Contact />
+                    </Route>
+                    <Route path="/about">
+                        <About />
+                    </Route>
+                    <Route path="/projects">
+                        <Projects />
+                    </Route>
+                    <Route path="/">
+                        <Home />
+                    </Route>
+
+                </Switch>
+            </div>
+        </Router>
+
     </div>
-  );
+    );
 }
 
-export default App;
+
+
+
+
