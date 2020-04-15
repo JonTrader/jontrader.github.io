@@ -1,5 +1,99 @@
 *
 {
   background-color: #2593D1;
+  margin: 0px;
 }
+
+ul
+{
+  list-style: none;
+}
+
+.bar
+{
+  height: 150px;
+  width: 100%;
+}
+
+.box
+{
+  position: absolute;
+  height: 100px;
+  width: 70%;
+  margin-top: 25px;
+  margin-left: 15%;
+}
+
+
+
+.logo
+{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.jon
+{
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.webdev
+{
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.about
+{
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: #FFFFFF;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 500px;
+}
+
+.projects
+{
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: #FFFFFF;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 700px;
+}
+
+.contact
+{
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  background-color: #FFFFFF;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 900px;
+}
+
+
 

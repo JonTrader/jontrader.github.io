@@ -1,4 +1,5 @@
 import React from 'react';
+import jlogo from './jlogo.jpg';
 import Home from './Pages/Home';
 import About from'./Pages/About';
 import Projects from './Pages/Projects';
@@ -18,24 +19,32 @@ export default function App()
 
     <div>
 
+
         <Router>
             <div>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/about">About</Link>
-                        </li>
-                        <li>
-                            <Link to="/projects">Projects</Link>
-                        </li>
-                        <li>
-                            <Link to="/contact">Contact</Link>
-                        </li>
-                    </ul>
-                </nav>
+                <header className="bar">
+                    <div className="box">
+                        <Link to="/"  >
+                            <img src={jlogo} className="logo" alt=""/>
+                            <h3 className="jon">Jonathan Montoya</h3>
+                            <h3 className="webdev">Web Developer</h3>
+                        </Link>
+                        <nav>
+                            <ul>
+                                <li>
+                                    <Link to="/about" className="about">About</Link>
+                                </li>
+                                <li>
+                                    <Link to="/projects" className="projects">Projects</Link>
+                                </li>
+                                <li>
+                                    <Link to="/contact" className="contact">Contact</Link>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+                
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
