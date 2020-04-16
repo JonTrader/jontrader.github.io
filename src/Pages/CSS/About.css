@@ -1,0 +1,39 @@
+
+.main
+{
+    
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.square
+{
+    background-color: inherit;
+    border: 5px solid rgba(0, 0, 0, 0.4);
+    height: 600px;
+    width: 750px;
+}
+
+.photo
+{
+    position: absolute;
+    border: 2px solid white;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.phototext
+{
+    background-color: inherit;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 225px;
+    height: 175px;
+    width: 510px;
+}

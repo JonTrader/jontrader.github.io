@@ -9,6 +9,7 @@ ul
   list-style: none;
 }
 
+
 .bar
 {
   height: 150px;
@@ -19,12 +20,10 @@ ul
 {
   position: absolute;
   height: 100px;
-  width: 70%;
+  width: 75%;
   margin-top: 25px;
   margin-left: 15%;
 }
-
-
 
 .logo
 {
@@ -36,63 +35,75 @@ ul
 .jon
 {
   position: absolute;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: normal;
   font-size: 20px;
+  width: 175px;
   margin-left: 100px;
-  margin-top: 20px;
+  margin-top: 22.5px;
 }
 
 .webdev
 {
   position: absolute;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: normal;
   font-size: 20px;
+  width: 175px;
   margin-left: 100px;
   margin-top: 50px;
 }
 
+
 .about
 {
   position: absolute;
-  width: 100px;
-  height: 50px;
-  background-color: #FFFFFF;
-  color: rgb(0, 0, 0);
-  font-size: 18px;
+  width: 80px;
+  height: 25px;
+  color: rgb(255, 255, 255);
   border-radius: 10px;
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
-  margin-left: 500px;
+  margin-left: 800px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .projects
 {
+  display: block;
   position: absolute;
-  width: 100px;
-  height: 50px;
-  background-color: #FFFFFF;
-  color: rgb(0, 0, 0);
-  font-size: 18px;
+  width: 80px;
+  height: 25px;
+  color: rgb(255, 255, 255);
   border-radius: 10px;
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
-  margin-left: 700px;
+  margin-left: 950px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
 }
 
 .contact
 {
+  display: block;
   position: absolute;
-  width: 100px;
-  height: 50px;
-  background-color: #FFFFFF;
-  color: rgb(0, 0, 0);
-  font-size: 18px;
+  width: 80px;
+  height: 25px;
+  color: rgb(255, 255, 255);
   border-radius: 10px;
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
-  margin-left: 900px;
+  margin-left: 1100px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 
