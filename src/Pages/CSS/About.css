@@ -1,11 +1,7 @@
-.main
+
+.about-center
 {
-    
-    margin-top: 125px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-top: 50px;
 }
 
 
@@ -13,13 +9,14 @@
 {
     background-color: inherit;
     border: 5px solid rgba(0, 0, 0, 0.4);
-    height: 600px;
+    height: 700px;
     width: 750px;
+    margin: 0px auto;
 }
 
 .photo
 {
-    position: absolute;
+    float: left;
     border: 2px solid white;
     height: 200px;
     width: 200px;
@@ -29,8 +26,7 @@
 
 .phototext
 {
-    background-color: inherit;
-    position: absolute;
+    background-color: white;
     margin-top: 25px;
     margin-left: 225px;
     height: 175px;

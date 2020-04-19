@@ -1,4 +1,5 @@
 import React from 'react';
+import Welcome from './Pages/Components/Welcome';
 import Home from './Pages/Components/Home';
 import About from'./Pages/Components/About';
 import Projects from './Pages/Components/Projects';
@@ -13,10 +14,11 @@ export default function App()
     <div>
         <Router>
             <Switch>
-                <Route path="/" exact component={Home} />
-                <Route path="/contact" component={Contact} />
-                <Route path="/about" component={About} />
-                <Route path="/projects" component={Projects} />
+                <Route path="/" exact component={Welcome} />
+                <Route path="/home" exact component={Home} />
+                <Route path="/contact" exact component={Contact} />
+                <Route path="/about" exact component={About} />
+                <Route path="/projects" exact component={Projects} />
             </Switch>
         </Router>
     </div>

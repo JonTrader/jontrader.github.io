@@ -26,7 +26,6 @@ export default class Home extends React.Component {
                     <img src={logo} className="laptop" alt="logo" />
                 </div>
             </div>
-
         </div>
         );
     }   
