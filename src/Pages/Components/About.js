@@ -1,6 +1,7 @@
 import React from 'react';
-import photo from './Images/jonathanmontoya.png'
-import './CSS/About.css';
+import Navigation from './Navigation';
+import photo from '../Images/jonathanmontoya.png'
+import '../CSS/About.css';
 
 
 
@@ -9,6 +10,8 @@ export default class About extends React.Component {
     render() {
         
         return (
+            <div>
+            <Navigation />
         <div className="main">
             <div className="square">
                 <img src={photo} className="photo" alt=""/>
@@ -20,6 +23,7 @@ export default class About extends React.Component {
                 </p>
                 
             </div>
+        </div>
         </div>
         );
     }   

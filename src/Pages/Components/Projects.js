@@ -1,5 +1,6 @@
 import React from 'react';
-import './CSS/About.css';
+import Navigation from './Navigation';
+import '../CSS/About.css';
 
 export default class Projects extends React.Component {
 
@@ -7,6 +8,7 @@ export default class Projects extends React.Component {
         
         return (
         <div>
+            <Navigation />
             <h1>Projects</h1>
         </div>
         );
