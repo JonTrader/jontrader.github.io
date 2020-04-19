@@ -12,14 +12,25 @@ export default class About extends React.Component {
         return (
             <div>
             <Navigation />
-            <div className="about-center">
-                <div className="square">
+            <div className="about">
+                <div className="about-square">
                     <img src={photo} className="photo" alt=""/>
-                    <p className="phototext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-                    mollit anim id est laborum.
+                    <h4 className="square-titles"><span className="righttext">Name:</span> Jonathan Montoya</h4>
+                    <h4 className="square-titles"><span className="righttext">Age:</span> 24 Years Old</h4>
+                    <h4 className="square-titles"><span className="righttext">Education:</span> BS in Computer Science</h4>
+                    <br/>
+                    <br/>
+                    <p>
+                    Meatloaf frankfurter short loin hamburger pork chislic, landjaeger swine boudin sausage chuck shoulder flank ham tenderloin. Turducken alcatra t-bone drumstick chicken. Capicola tongue prosciutto, cow beef flank turkey picanha pork ribeye beef ribs chicken spare ribs. Pork biltong bacon ball tip porchetta cupim, bresaola drumstick.
+                    </p>
+                    <p>
+                    Strip steak pig leberkas kevin tongue. Kielbasa drumstick fatback pig, jowl pork chop bacon buffalo rump strip steak cow beef capicola turducken alcatra. Shankle brisket burgdoggen pastrami andouille bresaola picanha sirloin tail pork loin rump shank. Shankle doner shank, ham bacon tri-tip ground round drumstick salami meatball pancetta tenderloin burgdoggen pork loin beef ribs. Ribeye pork chop frankfurter landjaeger, burgdoggen pork belly turkey venison shankle meatloaf alcatra.
+                    </p>
+                    <p>
+                    Meatball strip steak leberkas t-bone meatloaf frankfurter, shankle pork chop sausage ham hock pork burgdoggen corned beef bacon. Boudin pig shoulder beef short loin meatball jowl. Frankfurter jerky kielbasa pork belly meatloaf, pork chop t-bone beef. Meatloaf tail strip steak short loin pork, bacon picanha ham. Jowl porchetta chuck, pastrami alcatra pork loin filet mignon rump corned beef capicola spare ribs. Pork chop flank swine andouille.
+                    </p>
+                    <p>
+                    Meatball strip steak leberkas t-bone meatloaf frankfurter, shankle pork chop sausage ham hock pork burgdoggen corned beef bacon. Boudin pig shoulder beef short loin meatball jowl. Frankfurter jerky kielbasa pork belly meatloaf, pork chop t-bone beef. Meatloaf tail strip steak short loin pork, bacon picanha ham. Jowl porchetta chuck, pastrami alcatra pork loin filet mignon rump corned beef capicola spare ribs. Pork chop flank swine andouille.
                     </p>
                 
                 </div>

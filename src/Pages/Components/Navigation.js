@@ -8,21 +8,21 @@ export default function Nav()
     return (
         <header className="bar">
             <div className="box">
-               <Link to="/home">
+               <Link to="/home" className="logobox">
                   <img src={jlogo} className="logo" alt=""/>
-                  <h3 className="jon">Jonathan Montoya</h3>
-                  <h3 className="webdev">Web Developer</h3>
+                  <h3 className="jon logo-text">Jonathan Montoya</h3>
+                  <h3 className="webdev logo-text">Web Developer</h3>
                </Link>
                <nav>
                   <ul>
                      <li>
-                        <Link to="/about" className="about">About</Link>
+                        <Link to="/about" className="about-link nav-text">About</Link>
                     </li>
                     <li>
-                        <Link to="/projects" className="projects">Projects</Link>
+                        <Link to="/projects" className="projects-link nav-text">Projects</Link>
                     </li>
                     <li>
-                        <Link to="/contact" className="contact">Contact</Link>
+                        <Link to="/contact" className="contact-link nav-text">Contact</Link>
                     </li>
                 </ul>
                </nav>

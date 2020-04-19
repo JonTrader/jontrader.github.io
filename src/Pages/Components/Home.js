@@ -14,7 +14,7 @@ export default class Home extends React.Component {
         
         <div>
             <Navigation />
-            <div className="home">
+            <div>
                 <div className="center">
                     <a
                     className="link"
