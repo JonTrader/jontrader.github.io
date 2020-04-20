@@ -1,3 +1,4 @@
+
 .welcome
 {
     width: 50%;
@@ -5,7 +6,7 @@
     margin: 225px auto;
 }
 
-.textbox
+.welcome-box
 {
     margin: auto auto 75px auto;
     width: 75%;
@@ -14,6 +15,7 @@
     font-size: 40px;
     text-align: center;
     animation-name: textbox-animation;
+    animation-timing-function: ease-out;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
@@ -35,7 +37,7 @@
     height: 100px;
     animation-name: logowelcomeanimation;
     animation-duration: 5s;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in;
     animation-fill-mode: forwards;
     transition-delay: 2s;
 }
@@ -54,7 +56,7 @@
 
 .jonmon
 {
-    color: red
+    color: red;
 }
 
 .link-welcome
@@ -73,19 +75,22 @@
     height: 100px;
     font-size: 24px;
     animation-name: btn-animation;
-    animation-duration: 2s;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
     animation-fill-mode: forwards;
+    transition: all 1s;
 }
 
 .welcome-btn:hover
 {
     color: rgb(0, 30, 60);
+    border: 3px solid rgb(255, 0, 0);
     background-color: white;
     cursor: pointer;
 }
 
 @keyframes btn-animation
 {
-    0%{ transform: translateX(-1000px); }
-    100%{ transform: translateX(auto); }
+    0% {opacity: 0;} 
+    100% {opacity: 1;}
 }

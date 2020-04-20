@@ -1,5 +1,5 @@
 import React from 'react';
-import jlogo from '../Images/jlogo.jpg';
+import jlogo from '../Images/j.png';
 import '../CSS/Navigation.css';
 import { Link } from "react-router-dom";
 
@@ -16,7 +16,7 @@ export default function Nav()
                <nav>
                   <ul>
                      <li>
-                        <Link to="/about" className="about-link nav-text">About</Link>
+                        <Link to="/about" className="about-link nav-text underline">About</Link>
                     </li>
                     <li>
                         <Link to="/projects" className="projects-link nav-text">Projects</Link>

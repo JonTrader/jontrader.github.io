@@ -1,18 +1,75 @@
-.gifs
+.projectsframes
+{
+    border: 2px solid white;
+    width: 22.5%;
+    float: left;
+    margin: 150px 11.5%;
+    animation-name: frame-animation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    transition: all 1s;
+}
+
+@keyframes frame-animation
+{
+  0% { opacity: 0%; }
+  100% { opacity: 100%; }
+}
+
+.projectsframes:hover
 {
   border: 2px solid red;
+  width: 27.5%;
+}
+
+
+.gifs
+{
+    border: 2px solid white;
     width: 30%;
     float: left;
-    margin: 200px 1.66%;
-    background-color: white;
+    margin: 150px 9.5%;
     animation-name: projects-animation;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
 
+.gifs:hover
+{
+  border: 2px solid red;
+}
+
 @keyframes projects-animation
 {
-  0% {opacity: 0;} 
-  100% {opacity: 1;}
+  0%{ transform: translateX(-1000px); }
+  100%{ transform: translateX(auto); }
+}
+
+.linkback
+{
+  text-decoration: none;
+}
+
+.back
+{
+  font-size: 26px;
+  margin-left: 9.5%;
+  text-decoration: none;
+  color: white;
+  transition: all 1s;
+}
+
+.back:hover
+{
+  color: red;
+}
+
+.arrow
+{
+  float: left;
+  width: 2.5%;
+  margin-top: 10px;
+  margin-left: 150px;
 }

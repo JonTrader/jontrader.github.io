@@ -1,4 +1,6 @@
-ul
+
+
+li
 {
   list-style: none;
 }
@@ -50,50 +52,52 @@ ul
 .jon
 {
   margin-left: 100px;
-  margin-top: 22.5px;
+  margin-top: 25px;
+  height: 25px;
 }
 
 .webdev
 {
   margin-left: 100px;
   margin-top: 50px;
+  height: 25px;
 }
 
 
 .about-link
 {
-  margin-left: 950px;
+  margin-left: 965px;
+  width: 65px;
 }
 
 .projects-link
 {
   margin-left: 1075px;
+  width: 80px;
 }
 
 .contact-link
 {
   margin-left: 1200px;
+  width: 80px;
 }
 
 .nav-text
 {
+  height: 30px;
   position: absolute;
-  width: 80px;
-  height: 25px;
   color: rgb(255, 255, 255);
-  border-radius: 10px;
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
   text-decoration: none;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  text-transform: uppercase;
+  margin-top: 17.5px;
+  transition: all 1s;
+  
 }
 
 .nav-text:hover
 {
-  color: red;
+  color:rgb(255, 0, 0);
+  border-bottom: 1px solid red;
 }
-
-
-

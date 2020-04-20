@@ -12,14 +12,16 @@ export default class About extends React.Component {
         return (
             <div>
             <Navigation />
+            <hr></hr>
             <div className="about">
-                <div className="about-square">
+                <div className="center-square">
                     <img src={photo} className="photo" alt=""/>
                     <h4 className="square-titles"><span className="righttext">Name:</span> Jonathan Montoya</h4>
                     <h4 className="square-titles"><span className="righttext">Age:</span> 24 Years Old</h4>
                     <h4 className="square-titles"><span className="righttext">Education:</span> BS in Computer Science</h4>
                     <br/>
                     <br/>
+                    <br />
                     <p>
                     Meatloaf frankfurter short loin hamburger pork chislic, landjaeger swine boudin sausage chuck shoulder flank ham tenderloin. Turducken alcatra t-bone drumstick chicken. Capicola tongue prosciutto, cow beef flank turkey picanha pork ribeye beef ribs chicken spare ribs. Pork biltong bacon ball tip porchetta cupim, bresaola drumstick.
                     </p>
