@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
+import Dialog from './Dialog';
 import '../CSS/Contact.css';
 
 
@@ -15,9 +16,15 @@ export default class Contact extends React.Component {
         }
     }
 
-    handleSubmit = (event) =>
-    {
+    handleSubmit = (e) => 
+    (
+    
+    this.setState({isOpen: true})
+    )
 
+    state =
+    {
+        isOpen: false
     }
 
     render() {
@@ -30,10 +37,10 @@ export default class Contact extends React.Component {
             <hr></hr>
             <div className="about">
     
-            <form className="contact-center" onSubmit={this.handleSubmit}>
-                <header>
+            <form className="contact-center" onSubmit={this.handleSubmit} >
+                <header className="contact-header">
                 <h3 className="contact-title">Contact Me</h3>
-                <p>montoya0396@gmail.com</p>
+                <p className="emailme">montoya0396@gmail.com</p>
                 </header>
                 
 
@@ -73,6 +80,8 @@ export default class Contact extends React.Component {
                 <input type="submit" className="submit-btn" value="Send"  />
 
             </form>
+
+            <Dialog isOpen={this.state.isOpen} />
 
             </div>
             </div>

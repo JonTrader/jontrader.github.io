@@ -19,9 +19,14 @@ export default class About extends React.Component {
                     <h4 className="photo-titles"><span className="righttext">Name:</span> Jonathan Montoya</h4>
                     <h4 className="photo-titles"><span className="righttext">Age:</span> 24 Years Old</h4>
                     <h4 className="photo-titles"><span className="righttext">Education:</span> BS in Computer Science</h4>
+                    <a
+                    className="righttext"
+                    href="https://drive.google.com/open?id=1hpb6NHpRxn1A92GHbXtbSLWBLca51ROO"
+                    >View/Download Resume
+                    </a>
                     <br/>
                     <br/>
-                    <br />
+                    <br/>
                     <p className="about-p">
                     Meatloaf frankfurter short loin hamburger pork chislic, landjaeger swine boudin sausage chuck shoulder flank ham tenderloin. Turducken alcatra t-bone drumstick chicken. Capicola tongue prosciutto, cow beef flank turkey picanha pork ribeye beef ribs chicken spare ribs. Pork biltong bacon ball tip porchetta cupim, bresaola drumstick.
                     </p>

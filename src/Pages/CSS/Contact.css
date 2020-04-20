@@ -11,16 +11,26 @@
     animation-fill-mode: forwards;
   }
 
-  .contact-title
-  {
-    text-align: center;
-    width: 175px;
-    color: rgba(255, 255, 255, 0.75);
-    border-bottom: 1px solid red;
-    font-size: 28px;
-    letter-spacing: 1px;
-    margin: 25px auto;
-  }
+.contact-header
+{
+  text-align: center;
+}
+
+.contact-title
+{
+  width: 175px;
+  color: rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid red;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin: 25px auto 0px auto;
+}
+
+.emailme
+{
+  color: rgba(255, 255, 255, 0.80);
+  margin: 5px auto 0px auto;
+}
 
   .input-divs
   {
@@ -37,7 +47,7 @@
     width: 80%;
     height: 300px;
     position: relative;
-    margin: 175px auto 100px auto;
+    margin: 150px auto 75px auto;
     color: white;
     font-size: 20px;
   }
