@@ -1,4 +1,4 @@
-.projectsframes
+.projects-frames
 {
     border: 2px solid white;
     width: 22.5%;
@@ -17,14 +17,14 @@
   100% { opacity: 100%; }
 }
 
-.projectsframes:hover
+.projects-frames:hover
 {
   border: 2px solid red;
   width: 27.5%;
 }
 
 
-.gifs
+.gifs-react
 {
     border: 2px solid white;
     width: 30%;
@@ -36,9 +36,22 @@
     animation-fill-mode: forwards;
 }
 
-.gifs:hover
+.gifs-react:hover
 {
   border: 2px solid red;
+}
+
+.gif-htmlcss
+{
+  border: 2px solid white;
+  width: 40%;
+  float: left;
+  margin: 150px 30%;
+  animation-name: projects-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+
 }
 
 @keyframes projects-animation
@@ -47,7 +60,7 @@
   100%{ transform: translateX(auto); }
 }
 
-.linkback
+.link-back
 {
   text-decoration: none;
 }
@@ -56,7 +69,6 @@
 {
   font-size: 26px;
   margin-left: 9.5%;
-  text-decoration: none;
   color: white;
   transition: all 1s;
 }
@@ -66,10 +78,16 @@
   color: red;
 }
 
-.arrow
+.arrow-back
 {
-  float: left;
-  width: 2.5%;
-  margin-top: 10px;
-  margin-left: 150px;
+  display: block;
+  width: 4%;
+  margin-top: 40px;
+  margin-left: 9.5%;
+  transition: all 1s;
+}
+
+.arrow-back:hover
+{
+  transform: rotate(90deg)
 }

@@ -30,7 +30,7 @@
 
 
 
-.logowelcome
+.welcome-logo
 {
     margin: 0;
     width: 100px;
@@ -48,7 +48,7 @@
   100% {opacity: 1;}
 }
 
-.intro
+.intro-p
 {
     text-align: center;
     margin: 0;
@@ -59,7 +59,7 @@
     color: red;
 }
 
-.link-welcome
+.welcome-link
 {
     text-decoration: none;
 }

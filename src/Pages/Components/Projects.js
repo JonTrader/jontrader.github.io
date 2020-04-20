@@ -15,11 +15,11 @@ export default class Projects extends React.Component {
             <hr></hr>
 
             <Link to="/projects/reactprojects" >
-                <img className="projectsframes" src={react} alt=""/>
+                <img className="projects-frames" src={react} alt=""/>
             </Link>
 
             <Link to="/projects/htmlcssproject" >
-            <img className="projectsframes" src={htmlcss} alt=""/>
+            <img className="projects-frames" src={htmlcss} alt=""/>
             </Link>
             
         </div>

@@ -6,23 +6,23 @@ import { Link } from "react-router-dom";
 export default function Nav()
 {
     return (
-        <header className="bar">
-            <div className="box">
-               <Link to="/home" className="logobox">
-                  <img src={jlogo} className="logo" alt=""/>
-                  <h3 className="jon logo-text">Jonathan Montoya</h3>
-                  <h3 className="webdev logo-text">Web Developer</h3>
+        <header className="nav-bar">
+            <div className="nav-box">
+               <Link to="/home">
+                  <img src={jlogo} className="nav-logo" alt=""/>
+                  <h3 className="nav-jon nav-logotext">Jonathan Montoya</h3>
+                  <h3 className="nav-webdev nav-logotext">Web Developer</h3>
                </Link>
                <nav>
                   <ul>
                      <li>
-                        <Link to="/about" className="about-link nav-text underline">About</Link>
+                        <Link to="/about" className="about-link nav-links underline">About</Link>
                     </li>
                     <li>
-                        <Link to="/projects" className="projects-link nav-text">Projects</Link>
+                        <Link to="/projects" className="projects-link nav-links">Projects</Link>
                     </li>
                     <li>
-                        <Link to="/contact" className="contact-link nav-text">Contact</Link>
+                        <Link to="/contact" className="contact-link nav-links">Contact</Link>
                     </li>
                 </ul>
                </nav>

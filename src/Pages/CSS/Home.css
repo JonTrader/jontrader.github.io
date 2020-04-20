@@ -12,7 +12,7 @@ hr
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0.05), rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0.05));
 }
 
-.center
+.home-center
 {
   margin-top: 50px;
   width: 100%;
@@ -32,7 +32,7 @@ hr
   100% {opacity: 1;}
 }
 
-.link
+.resume
 {
   font-size: 50px;
 
@@ -40,7 +40,7 @@ hr
   text-decoration: none;
 }
 
-.laptop
+.laptop-logo
 {
   margin-top: 10px;
   pointer-events: none;

@@ -14,14 +14,12 @@ export default class HtmlCss extends React.Component {
                 <Navigation />
                 <hr></hr>
 
-                <Link to="/projects" className="linkback">
-                        <img src={arrow} alt="" className="arrow"/>
-                        <h2 className="back">Back To Projects</h2>
+                <Link to="/projects">
+                    <img src={arrow} alt="" className="arrow-back"/>
                 </Link>
 
-                <a href="https://github.com/JonTrader/favlinks">
-                    <img className="gifs" src={project3} alt=""/>
-                </a> 
+                <img className="gif-htmlcss" src={project3} alt=""/>
+                
             </div>
     );
 
