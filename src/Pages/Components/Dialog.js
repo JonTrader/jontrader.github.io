@@ -13,9 +13,8 @@ export default class Home extends React.Component {
         (
         
         <div  className="dialog-box">
-            
+            <button className="btn-close" onClick={this.props.onClose}>X</button>
                 Thank You! 
-            
         </div>
 
         )

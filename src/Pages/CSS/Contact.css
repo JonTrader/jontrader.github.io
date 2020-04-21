@@ -81,29 +81,50 @@
 
   .submit-btn
   {
+      position: absolute;
       font-size: 16px;
-      height: 30px;
+      height: 35px;
       width: 100px;
       border-radius: 5px;
-      margin: 0px 325px;
+      margin: 10px 325px;
   }
 
   .dialog-box
   {
-    position: absolute;
-    margin: 100px  auto auto 1500px;
-    border: 2px solid red;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.6);
-    width: 200px;
+    padding-top: 20px;
+    background: rgb(0, 0, 0);
+    width: 250px;
     height: 75px;
-    font-size: 16px;
+    font-size: 20px;
+    margin: -500px auto 0px auto;
+    
   }
 
-  .dialog-text
-  {
-    font-size: 18px;
-    margin: 25px auto;
-    background-color: inherit
-  }
+  .popup-open
+{
+  opacity: 0.1;
+  margin-top: 50px;
+}
+
+.btn-close
+{
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-left: 125px;
+  margin-top: -15px;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.6);
+  border: 1px solid rgb(200, 200, 200);
+  color: white;
+}
+
+.btn-close:hover
+{
+  cursor: pointer;
+}

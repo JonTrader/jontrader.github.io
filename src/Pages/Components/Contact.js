@@ -36,9 +36,9 @@ export default class Contact extends React.Component {
             
             <Navigation />
             <hr></hr>
-            <div className="about">
+            <div className={this.state.isOpen ? "popup-open" : "about"}>
 
-            <Dialog isOpen={this.state.isOpen} />
+            
     
             <form className="contact-center" onSubmit={this.handleSubmit} >
                 <header className="contact-header">
@@ -84,9 +84,8 @@ export default class Contact extends React.Component {
 
             </form>
 
-            
-
             </div>
+            <Dialog isOpen={this.state.isOpen} onClose={(e) => this.setState({ isOpen: false})}/>
             </div>
         );
     }   

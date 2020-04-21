@@ -28,17 +28,35 @@ export default class About extends React.Component {
                     <br/>
                     <br/>
                     <p className="about-p">
-                    Meatloaf frankfurter short loin hamburger pork chislic, landjaeger swine boudin sausage chuck shoulder flank ham tenderloin. Turducken alcatra t-bone drumstick chicken. Capicola tongue prosciutto, cow beef flank turkey picanha pork ribeye beef ribs chicken spare ribs. Pork biltong bacon ball tip porchetta cupim, bresaola drumstick.
+                        I am an aspiring Web Developer and Software Engineer with a great passion for computers, coding and technology in general. 
+                        I have experience in Java, HTML, CSS, JavaScript & React. I'm currently learning advanced Java Programming Language, CSS and 
+                        different libraries within CSS such as Bootstrap 4. I also aspire to learn advanced JavaScript, React and much more. 
                     </p>
                     <p className="about-p">
-                    Strip steak pig leberkas kevin tongue. Kielbasa drumstick fatback pig, jowl pork chop bacon buffalo rump strip steak cow beef capicola turducken alcatra. Shankle brisket burgdoggen pastrami andouille bresaola picanha sirloin tail pork loin rump shank. Shankle doner shank, ham bacon tri-tip ground round drumstick salami meatball pancetta tenderloin burgdoggen pork loin beef ribs. Ribeye pork chop frankfurter landjaeger, burgdoggen pork belly turkey venison shankle meatloaf alcatra.
-                    </p>
+                        I took a while to transition into Computer Science. I transfered from some Engineerings to others and finally decided to study Computer Science. 
+                        After my first coding class I decided to seek more experience in the coding world and found a huge passion within this world. That allowed me to finally 
+                        find my passion.
+                   </p>
                     <p className="about-p">
-                    Meatball strip steak leberkas t-bone meatloaf frankfurter, shankle pork chop sausage ham hock pork burgdoggen corned beef bacon. Boudin pig shoulder beef short loin meatball jowl. Frankfurter jerky kielbasa pork belly meatloaf, pork chop t-bone beef. Meatloaf tail strip steak short loin pork, bacon picanha ham. Jowl porchetta chuck, pastrami alcatra pork loin filet mignon rump corned beef capicola spare ribs. Pork chop flank swine andouille.
+                        Other than my passion for Computer Science and Software Engineering, I also find passion in Photography and Sports (mainly Soccer). I consider myself as a 
+                        great problem-solver, an excellent peer that is able to work in teams, a great individual that is also able to work alone and have the patience and adaptation 
+                        to be able to work in any environment.
                     </p>
-                    <p className="about-p">
-                    Meatball strip steak leberkas t-bone meatloaf frankfurter, shankle pork chop sausage ham hock pork burgdoggen corned beef bacon. Boudin pig shoulder beef short loin meatball jowl. Frankfurter jerky kielbasa pork belly meatloaf, pork chop t-bone beef. Meatloaf tail strip steak short loin pork, bacon picanha ham. Jowl porchetta chuck, pastrami alcatra pork loin filet mignon rump corned beef capicola spare ribs. Pork chop flank swine andouille.
+
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    
+
+
+                    <p className="bye-p">
+                        Thank you for taking the time to get to know me, hope to hear from you soon!
                     </p>
+
                 
                 </div>
             </div>

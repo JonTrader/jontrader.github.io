@@ -54,3 +54,13 @@
     text-align: justify;
     margin: 10px 10px;
 }
+
+.bye-p
+{
+    color: white;
+    text-align: justify;
+    margin: 10px 10px;
+    font-size: 21.8px;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+}
