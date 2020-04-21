@@ -15,23 +15,23 @@ hr
 .home-center
 {
   text-align: center;
-  background-color: white;
+  background-color: rgba(255, 0, 0, 0.6);
   margin: 150px auto;
   width: 250px;
   height: 250px;
   animation-name: myanimation;
-  animation-duration: 5s;
-  animation-delay: 1s;
+  animation-duration: 4s;
+  animation-delay: 0s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
 
 @keyframes myanimation {
-  0% {color: red; background-color: white; border-radius: 0 0 0 0; border: 2px solid red;}
-  25% {color: rgb(255, 255, 255); background-color: red;  border-radius: 50% 0 0 0; border: 2px solid white;}
-  50% {color: rgb(0, 0, 0); background-color: yellow; border-radius: 50% 50% 0 0; border: 2px solid black;}
-  75% {color: rgb(255, 255, 255); background-color: rgb(0, 30, 60); border-radius: 50% 50% 50% 0; border: 2px solid white;}
-  100% {color: red; background-color: rgb(255, 255, 255); border-radius: 50% 50% 50% 50%; border: 2px solid red;}
+  0% {color: rgb(255, 255, 255); background-color: rgb(255, 0, 0) ; border-radius: 0 0 0 0; border: 3px solid rgb(255, 255, 255);}
+  25% {color: rgb(255, 0, 200); background-color: rgb(0, 0, 0);  border-radius: 50% 0 0 0; border: 3px solid rgb(255, 0, 200);}
+  50% {color: rgb(0, 0, 0); background-color: yellow; border-radius: 50% 50% 0 0; border: 3px solid rgb(0, 0, 0);}
+  75% {color: red; background-color: rgb(255, 255, 255); border-radius: 50% 50% 50% 0; border: 3px solid red;}
+  100% {color: rgb(255, 255, 255); background-color: rgb(0, 30, 60); border-radius: 50% 50% 50% 50%; border: 3px solid rgb(255, 0, 0);}
 }
 
 .home-text

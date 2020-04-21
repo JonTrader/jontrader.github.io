@@ -17,10 +17,11 @@ export default class Contact extends React.Component {
     }
 
     handleSubmit = (e) => 
-    (
+    {
     
     this.setState({isOpen: true})
-    )
+    e.preventDefault();
+    };
 
     state =
     {
@@ -36,6 +37,8 @@ export default class Contact extends React.Component {
             <Navigation />
             <hr></hr>
             <div className="about">
+
+            <Dialog isOpen={this.state.isOpen} />
     
             <form className="contact-center" onSubmit={this.handleSubmit} >
                 <header className="contact-header">
@@ -64,7 +67,7 @@ export default class Contact extends React.Component {
                     Email Address
                     <br/>
                     <input 
-                    type="text" 
+                    type="email" 
                     placeholder="montoya0396@gmail.com" 
                     onFocus={(e) => e.target.placeholder = ""} 
                     onBlur={(e) => e.target.placeholder = "Email Address"} 
@@ -81,7 +84,7 @@ export default class Contact extends React.Component {
 
             </form>
 
-            <Dialog isOpen={this.state.isOpen} />
+            
 
             </div>
             </div>

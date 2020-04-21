@@ -11,9 +11,11 @@ export default class Home extends React.Component {
 
         let dialog = 
         (
-
-        <div>
-            Thank You!
+        
+        <div  className="dialog-box">
+            
+                Thank You! 
+            
         </div>
 
         )
