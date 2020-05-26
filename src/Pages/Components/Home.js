@@ -1,6 +1,8 @@
 import React from 'react';
 import Navigation from './Navigation';
 import '../CSS/Home.css';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 
 
 
@@ -13,11 +15,14 @@ export default class Home extends React.Component {
         
         <div>
             <Navigation />
-            <div>
-                <div className="home-center">
-                    <p className="home-text">Welcome!</p>
-                </div>
-            </div>
+
+            <Container>
+                <Row className="text-center">
+                    <div className="homeCenter">
+                            <h2>Welcome!</h2>
+                    </div>
+                </Row>
+            </Container>
         </div>
         );
     }   

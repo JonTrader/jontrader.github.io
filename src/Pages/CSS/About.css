@@ -1,3 +1,33 @@
+.aboutColumn
+{
+    margin-top: 50px;
+    border: 5px solid rgba(255, 255, 255, 0.6);
+}
+
+.photo
+{
+    border: 2px solid rgba(255, 0, 0, 0.6);
+    height: 200px;
+    width: 200px;
+}
+
+.photoText h4
+{
+    font-size: 1.25rem;
+}
+
+.photoTitle
+{
+    color: red;
+}
+
+
+
+
+
+
+
+
 
 .about
 {
@@ -25,14 +55,7 @@
   }
 
 
-.photo
-{
-    float: left;
-    border: 2px solid rgba(255, 0, 0, 0.6);
-    height: 200px;
-    width: 200px;
-    margin: 10px 10px;
-}
+
 
 .photo-titles
 {
@@ -48,19 +71,16 @@
 }
 
 
-.about-p
+.description p
 {
-    color: white;
+    font-size: 1.125rem;
     text-align: justify;
-    margin: 10px 10px;
 }
 
-.bye-p
+.byeP
 {
-    color: white;
-    text-align: justify;
-    margin: 10px 10px;
-    font-size: 21.8px;
+    font-size: 1.40rem;
+    margin-top: 50px;
     border-bottom: 1px solid red;
     border-top: 1px solid red;
 }
