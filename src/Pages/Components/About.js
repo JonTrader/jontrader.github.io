@@ -17,7 +17,7 @@ export default class About extends React.Component {
                 <Navigation />
                 <hr></hr>
 
-                <Container>
+                <Container className="mb-5">
                     <Row className="justify-content-center">
 
                         <Col xs={11} lg={8} className="aboutColumn">
@@ -54,13 +54,12 @@ export default class About extends React.Component {
                                     <br />
                                     <p>
                                         I took a while to transition into Computer Science. I transferred from some Engineerings to others and finally decided to study Computer Science. 
-                                        After my first coding class I decided to seek more experience in the coding world and found a huge desire to keep learning. That allowed me to finally 
-                                        find my passion.
+                                        After my first coding class I found a huge desire to keep learning, which allowed me to finally decide to choose Computer Science as my major.
                                     </p>
                                     <br />
                                     <p>
-                                        Other than my passion for Computer Science and Software Engineering, I also find passion in Photography and Sports (mainly Soccer). I consider myself a 
-                                        great problem-solver, an excellent peer that is able to work in teams, a great individual that is also able to work alone and have the patience and adaptation 
+                                        Other than my passion for coding and programming, I also find passion in Photography and Sports (mainly Soccer). I consider myself a 
+                                        great problem-solver, an excellent peer that is able to work in teams, a great individual that is also able to work alone and have the patience and adaptibility 
                                         to be able to work in any environment.
                                     </p>
                                 </Col>

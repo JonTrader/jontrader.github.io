@@ -32,7 +32,7 @@
     text-decoration: underline solid;
 }
 
-.description p
+.description
 {
     font-size: 1.125rem;
     text-align: justify;
@@ -55,7 +55,7 @@
        font-size: 0.85rem;
    }
 
-   .description p
+   .description
     {
         font-size: 0.90rem;
         text-align: justify;
@@ -87,4 +87,10 @@
         font-size: 1.125rem;
     }
 
+}
+
+.resume
+{
+    color: red;
+    text-align: center;
 }
