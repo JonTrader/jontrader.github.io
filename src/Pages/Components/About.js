@@ -20,15 +20,15 @@ export default class About extends React.Component {
                 <Container>
                     <Row className="justify-content-center">
 
-                        <Col xs={8} className="aboutColumn">
+                        <Col xs={11} lg={8} className="aboutColumn">
 
-                            <Row className="align-items-center photoText text-white px-3">
+                            <Row className="align-items-center photoText text-white px-3 mt-2">
 
                                 <Col xl={4}>
                                     <img src={photo} className="photo" alt=""/>
                                 </Col>
 
-                                <Col xl={2} className="photoTitle">
+                                <Col xl={2} className="photoTitle d-none d-xl-inline">
                                     <h4>Name:</h4>
                                     <h4>Age:</h4>
                                     <h4>Education:</h4>
@@ -67,9 +67,11 @@ export default class About extends React.Component {
                             </Row>
 
                             <Row className="justify-content-center text-white">
-                                <p className="byeP">
-                                    Thank you for taking the time to get to know me, hope to hear from you soon!
-                                </p>
+                                <Col xs={11}>
+                                    <p className="byeP">
+                                        Thank you for taking the time to get to know me, hope to hear from you soon!
+                                    </p>
+                                </Col>
                             </Row>
                             
                         </Col>

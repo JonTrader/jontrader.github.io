@@ -1,7 +1,22 @@
 .aboutColumn
 {
-    margin-top: 50px;
+    margin-top: 25px;
     border: 5px solid rgba(255, 255, 255, 0.6);
+    animation-name: squareAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes squareAnimation
+{
+  0% {opacity: 0;} 
+  100% {opacity: 1;}
+}
+
+.photoText h4
+{
+    font-size: 1.25rem;
 }
 
 .photo
@@ -11,65 +26,11 @@
     width: 200px;
 }
 
-.photoText h4
-{
-    font-size: 1.25rem;
-}
-
 .photoTitle
 {
     color: red;
-}
-
-
-
-
-
-
-
-
-
-.about
-{
-    margin-top: 50px;
-}
-
-
-.about-center
-{
-    background-color: inherit;
-    border: 5px solid rgba(255, 255, 255, 0.6);
-    height: 700px;
-    width: 750px;
-    margin: 0px auto;
-    animation-name: square-animation;
-    animation-duration: 3s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-  }
-  
-  @keyframes square-animation
-  {
-    0% {opacity: 0;} 
-    100% {opacity: 1;}
-  }
-
-
-
-
-.photo-titles
-{
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-}
-
-.righttext
-{  
-    color: rgba(255, 0, 0, 0.6);
-    font-size: 20px;
     text-decoration: underline solid;
 }
-
 
 .description p
 {
@@ -83,4 +44,47 @@
     margin-top: 50px;
     border-bottom: 1px solid red;
     border-top: 1px solid red;
+    text-align: center;
+}
+
+@media (max-width: 500px)
+{
+
+    .byeP
+   {
+       font-size: 0.85rem;
+   }
+
+   .description p
+    {
+        font-size: 0.90rem;
+        text-align: justify;
+    }
+
+    .photoText h4
+    {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 1199px)
+{
+
+    .photo
+    {
+        height: 150px;
+        width: 150px;
+    }
+
+    .photoText
+    {
+        text-align: center;
+    }
+
+    .byeP
+    {
+        font-size: 1.125rem;
+    }
+
 }
