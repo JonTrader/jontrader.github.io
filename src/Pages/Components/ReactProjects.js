@@ -16,7 +16,7 @@ export default class reactProjects extends React.Component {
         return (
             <div>
                 <Navigation />
-                <hr></hr>
+                <hr className="navLine"></hr>
 
                 <Container fluid className="reactContainer">
                     <Row>

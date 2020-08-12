@@ -12,7 +12,7 @@ export default class HtmlCss extends React.Component {
         return (
             <div>
                 <Navigation />
-                <hr></hr>
+                <hr className="navLine"></hr>
 
                 <Link to="/projects">
                     <img src={arrow} alt="" className="arrow-back"/>

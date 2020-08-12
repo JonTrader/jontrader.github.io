@@ -15,7 +15,7 @@ export default class Projects extends React.Component {
         <div>
 
             <Navigation />
-            <hr></hr>
+            <hr className="navLine"></hr>
 
             <Container className="projectsContainer">
 

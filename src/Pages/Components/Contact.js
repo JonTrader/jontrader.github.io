@@ -35,7 +35,7 @@ export default class Contact extends React.Component {
 
             
             <Navigation />
-            <hr></hr>
+            <hr className="navLine"></hr>
 
             <Container className="mb-5">
 
@@ -47,7 +47,7 @@ export default class Contact extends React.Component {
                             <Col className="text-center fontSquares">
                                 <h3>Contact Me</h3> 
                                 <h5>montoya0396@gmail.com</h5>
-                                <hr />
+                                <hr className="contactLine"/>
                             </Col>
                         </Row>
 
@@ -61,7 +61,7 @@ export default class Contact extends React.Component {
                                     placeholder="Name" 
                                     onFocus={(e) => e.target.placeholder = ""} 
                                     onBlur={(e) => e.target.placeholder = "Name"}  
-                                    required={true} className="" 
+                                    required={true} className="contactInput" 
                                     name="fullName"
                                     />
                                 </Col>
@@ -74,14 +74,14 @@ export default class Contact extends React.Component {
                                     placeholder="Email Address" 
                                     onFocus={(e) => e.target.placeholder = ""} 
                                     onBlur={(e) => e.target.placeholder = "Email Address"} 
-                                    required={true} className="contact-input" />
+                                    required={true} className="contactInput" />
                                 </Col>
                             </Row>
 
                             <Row className="pt-3 fontSquares justify-content-center">
                                 <Col xs={9} md={10}>
                                     Message
-                                    <textarea type="text" required={true} className="messageBox"/>
+                                    <textarea type="text" required={true} className="contactTextarea"/>
                                 </Col>
                             </Row>
 

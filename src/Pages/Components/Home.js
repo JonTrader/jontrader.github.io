@@ -15,6 +15,7 @@ export default class Home extends React.Component {
         
         <div>
             <Navigation />
+            <hr className="navLine"></hr>
 
             <Container>
                 <Row className="text-center">

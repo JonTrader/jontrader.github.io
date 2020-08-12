@@ -15,7 +15,7 @@ export default class About extends React.Component {
         return (
             <div>
                 <Navigation />
-                <hr></hr>
+                <hr className="navLine"></hr>
 
                 <Container className="mb-5">
                     <Row className="justify-content-center">
@@ -63,6 +63,12 @@ export default class About extends React.Component {
                                         to be able to work in any environment.
                                     </p>
                                 </Col>
+                            </Row>
+
+                            <Row className="justify-content-center mt-2">
+                                <a href="https://google.com" className="resume">
+                                    View/Download Resume
+                                </a>
                             </Row>
 
                             <Row className="justify-content-center text-white">

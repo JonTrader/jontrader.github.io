@@ -34,15 +34,15 @@ export default class Navigation extends React.Component
                             <Nav className="ml-auto">
 
                                 <Nav.Link className="mr-4">
-                                    <Link to="/about">About</Link>
+                                    <Link className="links" to="/about">About</Link>
                                 </Nav.Link>
 
                                 <Nav.Link className="mr-4">
-                                    <Link to="/projects">Projects</Link>
+                                    <Link className="links" to="/projects">Projects</Link>
                                 </Nav.Link>
 
                                 <Nav.Link>
-                                    <Link to="/contact">Contact</Link>
+                                    <Link className="links" to="/contact">Contact</Link>
                                 </Nav.Link>
 
                             </Nav>
