@@ -90,6 +90,12 @@ export default class Contact extends React.Component {
                                         Send
                                     </Button>
                             </Row>
+
+                            <Row className="justify-content-center text-white">
+                                <p>
+                                    Feature not working at the moment. Please contact me directly.
+                                </p>
+                            </Row>
                         </form>
 
                     </Col>
