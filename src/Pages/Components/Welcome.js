@@ -14,6 +14,12 @@ export default class Welcome extends React.Component {
 
             <Container className="text-center">
 
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+
+
                 <Row id="mtCustom">
                     <Col>
                         <img src={jlogo} alt="" className="welcomeLogo"/>

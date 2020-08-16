@@ -66,13 +66,13 @@ export default class About extends React.Component {
                             </Row>
 
                             <Row className="justify-content-center mt-2">
-                                <a href="https://google.com" className="resume">
+                                <a href="https://drive.google.com/file/d/19nVjrlqV3IRRW2eyxpBduX7wmmIfJaZb/view?usp=sharing" className="resume">
                                     View/Download Resume
                                 </a>
                             </Row>
 
                             <Row className="justify-content-center text-white">
-                                <Col xs={11}>
+                                <Col xs={9}>
                                     <p className="byeP">
                                         Thank you for taking the time to get to know me, hope to hear from you soon!
                                     </p>
