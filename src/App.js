@@ -5,7 +5,7 @@ import About from'./Pages/Components/About';
 import Projects from './Pages/Components/Projects';
 import Contact from './Pages/Components/Contact';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { HashRouter } from 'react-router-dom';
+// import { HashRouter } from 'react-router-dom';
 
 
 export default function App() 
@@ -13,7 +13,7 @@ export default function App()
     return (
 
     <div>
-        <HashRouter>
+        <Router>
             <Switch>
                 <Route path="/" exact component={Welcome}/>
                 <Route path="/home" exact component={Home}/>
@@ -21,7 +21,7 @@ export default function App()
                 <Route path="/about" exact component={About} />
                 <Route path="/projects" exact component={Projects} />
             </Switch>
-        </HashRouter>
+        </Router>
     </div>
     );
 }

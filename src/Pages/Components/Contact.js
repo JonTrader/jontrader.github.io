@@ -16,9 +16,27 @@ export default class Contact extends React.Component {
         super(props)
         this.state =
         {
+            name: '',
+            email: '',
+            message: '',
+            disabled: false,
+            emailSent: null,
             fullName: null,
             isOpen: false
         }
+    }
+
+    handleChange = (event) => 
+    {
+        console.log(event);
+
+        const target = event.target;
+        const value = target.type === 'checkbox' ? target.checked : target.value;
+        const name = target.name;
+
+        this.setState({
+            [name]: value
+        })
     }
 
     handleSubmit = (e) => 
@@ -51,18 +69,18 @@ export default class Contact extends React.Component {
                             </Col>
                         </Row>
 
-                        <form>
+                        <form onSubmit={this.handleSubmit}>
                         
                             <Row className="justify-content-around fontSquares mb-5">
                                 <Col xs={5}>
                                     Your Name
                                     <input 
+                                    value="name"
                                     type="text" 
                                     placeholder="Name" 
                                     onFocus={(e) => e.target.placeholder = ""} 
                                     onBlur={(e) => e.target.placeholder = "Name"}  
                                     required={true} className="contactInput" 
-                                    name="fullName"
                                     />
                                 </Col>
 
