@@ -13,7 +13,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function App() {
   return (
-    <Router>
+
+    <div>
+    
         <Navbar expand="lg" variant="dark" className="navBarAnimation">
 
           <Container>
@@ -42,11 +44,11 @@ export default function App() {
 
           </Container>
 
+
+
         </Navbar>
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Switch>
+          <Switch>
 
           <Route path="/about" exact>
             <About />
@@ -65,7 +67,11 @@ export default function App() {
           </Route>
 
         </Switch>
-    </Router>
+
+</div>
+
+
+    
   );
 }
 
