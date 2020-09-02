@@ -1,5 +1,4 @@
 import React from 'react';
-import Navigation from './Navigation';
 import designpad from '../Images/designpad.gif';
 import favoritelinks from '../Images/favoritelinks.gif';
 import ms from '../Images/ms.gif';
@@ -16,7 +15,6 @@ export default class Projects extends React.Component {
         return (
         <div>
 
-            <Navigation />
             <hr className="navLine"></hr>
             <br/>
             <br/>

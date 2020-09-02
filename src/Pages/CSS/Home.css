@@ -8,7 +8,7 @@
 .homeCenter
 {
   background-color: rgba(255, 0, 0, 0.6);
-  margin: 125px auto;
+  margin: 50px auto;
   width: 250px;
   height: 250px;
   animation-name: myanimation;
@@ -16,6 +16,26 @@
   animation-delay: 0s;
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
+}
+
+.welcomeText h1,h4
+{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.welcomeText span
+{
+    color: red;
+}
+
+@media (max-width: 600px)
+{
+  .welcomeText h1,h4
+   {
+       font-size: 1.50rem;
+   }
+
 }
 
 @keyframes myanimation {

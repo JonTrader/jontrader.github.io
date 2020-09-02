@@ -1,5 +1,4 @@
 import React from 'react';
-import Navigation from './Navigation';
 import Dialog from './Dialog';
 import '../CSS/Contact.css';
 import Container from 'react-bootstrap/Container'
@@ -52,7 +51,7 @@ export default class Contact extends React.Component {
             <div>
 
             
-            <Navigation />
+            
             <hr className="navLine"></hr>
 
             <Container className="mb-5">
@@ -73,7 +72,7 @@ export default class Contact extends React.Component {
                         
                             <Row className="justify-content-around fontSquares mb-5">
                                 <Col xs={5}>
-                                    Your Name
+                                    <label htmlFor>Your Name</label>Your Name
                                     <input 
                                     value="name"
                                     type="text" 

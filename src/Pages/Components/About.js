@@ -1,5 +1,4 @@
 import React from 'react';
-import Navigation from './Navigation';
 import photo from '../Images/jonathanmontoya.png'
 import '../CSS/About.css';
 import Container from 'react-bootstrap/Container'
@@ -14,7 +13,6 @@ export default class About extends React.Component {
         
         return (
             <div>
-                <Navigation />
                 <hr className="navLine"></hr>
 
                 <Container className="mb-5">
